@@ -1,0 +1,164 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.master {
+  display: flex;
+  position: absolute;
+  left: 0px;
+  top: 69px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header-cont {
+  display:block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  height: 69px;
+  margin: 0 auto;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation li {
+  display: inline-block;
+  text-decoration: underline;
+  padding-right: 15px;
+}
+
+.navigation a {
+  color: white;
+}
+
+.logo {
+  display: inline-block;
+  height: 50px;
+  padding-left: 10px;
+}
+
+.top-section {
+  display: flex;
+  background-image: url("../images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  align-items: center;
+}
+
+.banner {
+  display: flex;
+  background-color: black;
+  width: 1200px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tealist {
+  display: inline;
+  color: white;
+}
+
+.mid-section {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+}
+
+h2,
+h4 {
+  color: white;
+  display: block;
+  text-align: center;
+
+}
+
+.mid-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.small-images img {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+
+.small-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.small-images img,
+h4{
+  margin: auto;
+}
+
+.bottom-section {
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/img-locations-background.jpg");
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+.text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  background-color: black;
+  margin: 0px 20px 0px 20px;
+  opacity: 1;
+}
+
+.text-box h3,
+p {
+  color: white;
+}
+
+.footer {
+  height: 200px;
+}
+
+.footer h5,
+h2 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+}
